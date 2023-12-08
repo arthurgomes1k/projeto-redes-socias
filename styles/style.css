@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -38,4 +39,34 @@ iframe#tela {
     left: 22px;
     width: 269px;
     height: 471px;
+}
+
+section#redes-socias {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+section#redes-socias i {
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.637);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 25px;
+    height: 52px;
+    width: 52px;
+    font-size: 35px;
+    transition: all 0.5s ease;
+}
+
+section#redes-socias i:hover {
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    transform: translate(-3px, -3px);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.801);
 }
