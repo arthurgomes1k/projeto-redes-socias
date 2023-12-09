@@ -37,7 +37,7 @@ iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
-    width: 269px;
+    width: 267px;
     height: 471px;
 }
 
@@ -56,7 +56,7 @@ section#redes-socias i {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin: 15px 25px;
+    margin: 16px 25px;
     height: 52px;
     width: 52px;
     font-size: 35px;
